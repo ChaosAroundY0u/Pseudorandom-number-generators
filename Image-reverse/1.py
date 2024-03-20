@@ -14,6 +14,6 @@ for i in range(width):
         pix = image.getpixel((i, j))
         reverse_image.putpixel((width - i - 1, j), pix)
 
-image.save("perun_reversed.jpg")
-image.show("perun_reversed.jpg")
+reverse_image.save("perun_reversed.jpg")
+reverse_image.show("perun_reversed.jpg")
 
